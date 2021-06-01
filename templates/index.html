@@ -9,14 +9,13 @@
 <link href='https://fonts.googleapis.com/css?family=Hind:300' rel='stylesheet' type='text/css'>
 <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
-  
+  <h1 style="text-align: center; color:navy;">Prediction Of Bank Marketing Scheme</h1>
 </head>
 
 <body>
  <div class="login">
-	<h6>Enter Details of the Customer</h1>
-
-     
+	<h2 style="text-align: center;">Enter Details of the Customer</h2>
+  
     <form action="{{ url_for('predict')}}"method="post">
         <input type="text" name="age" placeholder="Age" required="required" />
     	<input type="text" name="job" placeholder="job" required="required" />
